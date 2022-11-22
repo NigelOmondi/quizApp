@@ -1,18 +1,8 @@
-# Jetsurvey sample
+# Quiz App
 
-Jetsurvey is a sample survey app, built with
-[Jetpack Compose](https://developer.android.com/jetpack/compose). The goal of the sample is to
+QuizApp is a sample quiz app, built with
+Jetpack Compose. The goal of the sample is to
 showcase text input, validation and state capabilities of Compose.
-
-To try out this sample app, you need to use 
-[Android Studio Chipmunk](https://developer.android.com/studio).
-You can clone this repository or import the
-project from Android Studio following the steps
-[here](https://developer.android.com/jetpack/compose/setup#sample).
-
-## Screenshots
-
-<img src="screenshots/screenshots.png"/>
 
 ## Features
 
@@ -20,19 +10,19 @@ This sample contains several screens: a welcome screen, where the user can enter
 
 ### App scaffolding
 
-Package [`qwizapp`][1]
+Package [`quizapp`][1]
 
 [`MainActivity`][2] is the application's entry point. Each screen is implemented inside a `Fragment` and [`MainActivity`][2] is the host `Activity` for all of the `Fragment`s.
 The navigation between them uses the [Navigation library][3]. The screens and the navigation are defined in [`Navigation.kt`][4]
 
-[1]: app/src/main/java/com/example/compose/jetsurvey
-[2]: app/src/main/java/com/example/compose/jetsurvey/MainActivity.kt
+[1]: app/src/main/java/com/example/compose/quizapp
+[2]: app/src/main/java/com/example/compose/quizapp/MainActivity.kt
 [3]: https://developer.android.com/guide/navigation
-[4]: app/src/main/java/com/example/compose/jetsurvey/Navigation.kt
+[4]: app/src/main/java/com/example/compose/quizapp/Navigation.kt
 
 ### Sign in/sign up
 
-Package [`qwizapp.signinsignup`][5]
+Package [`quizapp.signinsignup`][5]
 
 This package contains 3 screens:
 * Welcome
@@ -49,11 +39,11 @@ See how to:
 * Use a `Snackbar`
 * Use different types of `Button`s: `TextButton`, `OutlinedButton` and `Button`
 
-[5]: app/src/main/java/com/example/compose/jetsurvey/signinsignup
+[5]: app/src/main/java/com/example/compose/quizapp/signinsignup
 
 ### Complete a survey
 
-Package [`qwizapp.survey`][6]
+Package [`quizapp.quiz`][6]
 
 This screen allows the user to fill out a survey, showing how to handle complex state. UI state is kept and restored on recompositions triggered by different reasons like a configuration change or a new question being displayed on the screen.
 
@@ -65,15 +55,9 @@ See how to:
 * Use `Scaffold` - for screens with top bar, bottom bar and body
 * Display a `DialogFragment` when requested from compose
 
-[6]: app/src/main/java/com/example/compose/jetsurvey/quiz
+[6]: app/src/main/java/com/example/compose/quizapp/quiz
 
 ### Data
 
 The data in the sample is static, held in the `*Repository` classes.
-
-## Setup
-The main [README](https://github.com/android/compose-samples/) has instructions on how to
-setup this sample, and many others.
-
-## License
 
