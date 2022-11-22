@@ -4,6 +4,10 @@ QuizApp is a sample quiz app, built with
 Jetpack Compose. The goal of the sample is to
 showcase text input, validation and state capabilities of Compose.
 
+## Screenshots
+
+<img src="screenshots/Screenshot_20221122-112753.png"/>
+
 ## Features
 
 This sample contains several screens: a welcome screen, where the user can enter their email, sign in and sign up screens and a survey screen. The app has light and dark themes.
