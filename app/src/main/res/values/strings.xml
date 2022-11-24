@@ -32,28 +32,36 @@
     <string name="select_date">Select date.</string>
 
     <!-- question 1-->
-    <string name="in_my_free_time">In my free time I like to …</string>
-    <string name="read">Read</string>
-    <string name="work_out">Work out</string>
-    <string name="draw">Draw</string>
-    <string name="play_games">Play video games</string>
-    <string name="dance">Dance</string>
-    <string name="watch_movies">Watch movies</string>
+    <string name="geography_question"> Which of the following are countries in the world?</string>
+    <string name="germany">Germany</string>
+    <string name="qatar">Qatar</string>
+    <string name="london">London</string>
+    <string name="rwanda">Rwanda</string>
+    <string name="israel">Israel</string>
+    <string name="lagos">Lagos</string>
+
 
     <!-- question 2 -->
-    <string name="pick_superhero">Pick a Compose comic character</string>
-    <string name="spark">Spark</string>
-    <string name="lenz">Lenz</string>
-    <string name="bugchaos">Bug of Chaos</string>
-    <string name="frag">Frag</string>
+    <string name="science_question">What is the measure of force?</string>
+    <string name="inches">Inches</string>
+    <string name="newton">Newton</string>
+    <string name="light_years">Light years</string>
+    <string name="gallons">Gallons</string>
 
     <!-- question 3  -->
-    <string name="takeaway">When was the last time you ordered takeaway because you couldn\'t be bothered to cook?</string>
+    <string name="history_question">When did Nigeria receive its independence?</string>
     <string name="pick_date">Pick a date</string>
 
     <!-- question 4-->
-    <string name="selfies">How do you feel about selfies 🤳?</string>
+    <string name="computer_question">Which of these is not a programming language?</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="css">CSS</string>
+    <string name="javascript">Javascript</string>
 
+
+    <!-- question 4-->
+    <string name="selfies">How do you feel about selfies 🤳?</string>
     <!-- question 5-->
     <string name="selfie_skills">Show off your selfie skills!</string>
     <string name="add_photo">ADD PHOTO</string>

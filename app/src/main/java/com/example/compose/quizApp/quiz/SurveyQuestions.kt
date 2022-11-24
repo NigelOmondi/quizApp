@@ -749,13 +749,13 @@ private fun SliderQuestion(
 fun QuestionPreview() {
     val question = Question(
         id = 2,
-        questionText = R.string.pick_superhero,
+        questionText = R.string.science_question,
         answer = PossibleAnswer.SingleChoice(
             optionsStringRes = listOf(
-                R.string.spark,
-                R.string.lenz,
-                R.string.bugchaos,
-                R.string.frag
+                R.string.inches,
+                R.string.newton,
+                R.string.light_years,
+                R.string.gallons
             )
         ),
         description = R.string.select_one
