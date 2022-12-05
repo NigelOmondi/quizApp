@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey
+package com.example.compose.quizapp
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController

@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.signinsignup
+package com.example.compose.quizapp.signinsignup
 
 import android.content.res.Configuration.UI_MODE_NIGHT_NO
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
@@ -34,10 +34,10 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.compose.jetsurvey.R
-import com.example.compose.jetsurvey.theme.JetsurveyTheme
-import com.example.compose.jetsurvey.theme.stronglyDeemphasizedAlpha
-import com.example.compose.jetsurvey.util.supportWideScreen
+import com.example.compose.quizapp.R
+import com.example.compose.quizapp.theme.JetsurveyTheme
+import com.example.compose.quizapp.theme.stronglyDeemphasizedAlpha
+import com.example.compose.quizapp.util.supportWideScreen
 
 sealed class WelcomeEvent {
     data class SignInSignUp(val email: String) : WelcomeEvent()

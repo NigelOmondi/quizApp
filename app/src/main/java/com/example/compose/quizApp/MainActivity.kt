@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey
+package com.example.compose.quizapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

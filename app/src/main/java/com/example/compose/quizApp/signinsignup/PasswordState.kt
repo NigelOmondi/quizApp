@@ -1,5 +1,5 @@
 
-package com.example.compose.jetsurvey.signinsignup
+package com.example.compose.quizapp.signinsignup
 
 class PasswordState :
     TextFieldState(validator = ::isPasswordValid, errorFor = ::passwordValidationError)

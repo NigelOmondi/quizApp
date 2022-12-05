@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.signinsignup
+package com.example.compose.quizapp.signinsignup
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -44,9 +44,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.compose.jetsurvey.R
-import com.example.compose.jetsurvey.theme.JetsurveyTheme
-import com.example.compose.jetsurvey.theme.stronglyDeemphasizedAlpha
+import com.example.compose.quizapp.R
+import com.example.compose.quizapp.theme.JetsurveyTheme
+import com.example.compose.quizapp.theme.stronglyDeemphasizedAlpha
 
 @Composable
 fun SignInSignUpScreen(

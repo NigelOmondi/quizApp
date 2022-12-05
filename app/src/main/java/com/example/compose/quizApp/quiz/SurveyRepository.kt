@@ -1,15 +1,15 @@
 
 
-package com.example.compose.jetsurvey.quiz
+package com.example.compose.quizapp.quiz
 
 import android.os.Build
-import com.example.compose.jetsurvey.R
+import com.example.compose.quizapp.R
 
-import com.example.compose.jetsurvey.quiz.PossibleAnswer.Action
-import com.example.compose.jetsurvey.quiz.PossibleAnswer.MultipleChoice
-import com.example.compose.jetsurvey.quiz.PossibleAnswer.SingleChoice
-import com.example.compose.jetsurvey.quiz.SurveyActionType.PICK_DATE
-import com.example.compose.jetsurvey.quiz.SurveyActionType.TAKE_PHOTO
+import com.example.compose.quizapp.quiz.PossibleAnswer.Action
+import com.example.compose.quizapp.quiz.PossibleAnswer.MultipleChoice
+import com.example.compose.quizapp.quiz.PossibleAnswer.SingleChoice
+import com.example.compose.quizapp.quiz.SurveyActionType.PICK_DATE
+import com.example.compose.quizapp.quiz.SurveyActionType.TAKE_PHOTO
 
 // Static data of questions
 private val jetpackQuestions = mutableListOf(

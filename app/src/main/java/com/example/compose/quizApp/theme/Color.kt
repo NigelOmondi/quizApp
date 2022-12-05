@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.theme
+package com.example.compose.quizapp.theme
 
 import androidx.compose.ui.graphics.Color
 

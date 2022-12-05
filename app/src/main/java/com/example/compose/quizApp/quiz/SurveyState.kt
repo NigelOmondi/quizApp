@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.quiz
+package com.example.compose.quizapp.quiz
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Stable

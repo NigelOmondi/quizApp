@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.signinsignup
+package com.example.compose.quizapp.signinsignup
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -20,10 +20,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.compose.jetsurvey.R
-import com.example.compose.jetsurvey.theme.JetsurveyTheme
-import com.example.compose.jetsurvey.theme.stronglyDeemphasizedAlpha
-import com.example.compose.jetsurvey.util.supportWideScreen
+import com.example.compose.quizapp.R
+import com.example.compose.quizapp.theme.JetsurveyTheme
+import com.example.compose.quizapp.theme.stronglyDeemphasizedAlpha
+import com.example.compose.quizapp.util.supportWideScreen
 
 sealed class SignUpEvent {
     object SignIn : SignUpEvent()

@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.signinsignup
+package com.example.compose.quizapp.signinsignup
 
 import androidx.compose.runtime.Immutable
 

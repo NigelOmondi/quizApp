@@ -1,5 +1,5 @@
 
-package com.example.compose.jetsurvey.util
+package com.example.compose.quizapp.util
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.widthIn
