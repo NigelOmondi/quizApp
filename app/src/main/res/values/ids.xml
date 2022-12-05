@@ -1,0 +1,7 @@
+
+<resources>
+    <item name="welcome_fragment" type="id" />
+    <item name="sign_in_fragment" type="id" />
+    <item name="sign_up_fragment" type="id" />
+    <item name="Quiz_fragment" type="id" />
+</resources>
