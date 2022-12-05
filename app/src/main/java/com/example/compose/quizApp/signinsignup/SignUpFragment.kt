@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.signinsignup
+package com.example.compose.quizapp.signinsignup
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,10 +9,10 @@ import android.view.ViewGroup
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.compose.jetsurvey.R
-import com.example.compose.jetsurvey.Screen
-import com.example.compose.jetsurvey.navigate
-import com.example.compose.jetsurvey.theme.JetsurveyTheme
+import com.example.compose.quizapp.R
+import com.example.compose.quizapp.Screen
+import com.example.compose.quizapp.navigate
+import com.example.compose.quizapp.theme.JetsurveyTheme
 
 /**
  * Fragment containing the sign up UI

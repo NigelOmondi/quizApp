@@ -1,5 +1,5 @@
 
-package com.example.compose.jetsurvey.quiz
+package com.example.compose.quizapp.quiz
 
 import android.content.res.Configuration
 import androidx.annotation.StringRes
@@ -54,11 +54,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.compose.jetsurvey.R
+import com.example.compose.quizapp.R
 
-import com.example.compose.jetsurvey.theme.JetsurveyTheme
-import com.example.compose.jetsurvey.theme.slightlyDeemphasizedAlpha
-import com.example.compose.jetsurvey.theme.stronglyDeemphasizedAlpha
+import com.example.compose.quizapp.theme.JetsurveyTheme
+import com.example.compose.quizapp.theme.slightlyDeemphasizedAlpha
+import com.example.compose.quizapp.theme.stronglyDeemphasizedAlpha
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.MultiplePermissionsState
 import com.google.accompanist.permissions.rememberMultiplePermissionsState

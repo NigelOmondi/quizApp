@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.compose.jetsurvey.util
+package com.example.compose.quizapp.util
 
 /**
  * Used as a wrapper for data that is exposed via a LiveData that represents an event.

@@ -1,4 +1,4 @@
-package com.example.compose.jetsurvey.quiz
+package com.example.compose.quizapp.quiz
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -16,9 +16,9 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.compose.jetsurvey.R
+import com.example.compose.quizapp.R
 
-import com.example.compose.jetsurvey.theme.JetsurveyTheme
+import com.example.compose.quizapp.theme.JetsurveyTheme
 import com.google.android.material.datepicker.MaterialDatePicker
 
 class SurveyFragment : Fragment() {

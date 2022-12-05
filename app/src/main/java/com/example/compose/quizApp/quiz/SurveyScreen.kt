@@ -1,6 +1,6 @@
 
 
-package com.example.compose.jetsurvey.quiz
+package com.example.compose.quizapp.quiz
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentScope
@@ -40,10 +40,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
-import com.example.compose.jetsurvey.R
+import com.example.compose.quizapp.R
 
-import com.example.compose.jetsurvey.theme.stronglyDeemphasizedAlpha
-import com.example.compose.jetsurvey.util.supportWideScreen
+import com.example.compose.quizapp.theme.stronglyDeemphasizedAlpha
+import com.example.compose.quizapp.util.supportWideScreen
 
 private const val CONTENT_ANIMATION_DURATION = 500
 
